@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:ital,wght@1,300;1,700&family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --verde:  rgb(6, 177, 94);
+}
+.cabecalho{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    box-shadow: 6px 6px 6px rgba(128, 128, 128, 0.652);
+    padding: 15px;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul{
+    display: flex;
+    list-style-type: none;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    font-weight: bold;
+}
+.cabecalho > div > ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    height: 100%;
+}
+div > ul > li > a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    font-weight: bold;
+}
+main{
+    max-width: 1300px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+.texto{
+    width: 50%;
+}
+main > .texto > h1{
+    text-align: center;
+    margin-top: 50%;
+}
+.email{
+    width: 50%;
+}
+main > .email > h2{
+    text-align: center;
+    margin-top: 15%;
+    color: var(--verde)
+}
+input{
+    margin-top: 60px;
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 350px;
+    height: 30px;
+}
+.div-botao{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.continuar{
+    text-decoration: none;
+    color: white;
+    background-color:var(--verde);
+    border-radius: 24px;
+    padding: 12px;
+    box-shadow: 0 0 6px rgb(62, 62, 62);
+    
+}
